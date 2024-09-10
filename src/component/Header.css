@@ -1,0 +1,82 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Styling for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 10px 20px;
+    backdrop-filter: blur(10px);
+    z-index:100;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  span{
+    color: orangered;
+  }
+  .logo:hover {
+    color: orangered;
+  }
+  
+  
+  /* Styling for the navigation menu */
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Styling for the navigation links */
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    
+  }
+  
+  /* Underline effect on hover for navigation links */
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color:orangered;
+    left: 0;
+    bottom: -3px;
+    transition: width 0.3s ease-in-out;
+   
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    
+  }
+  
+  /* Styling for the Contact Us button */
+  .contact-button {
+    background-color: white;
+    color: #000000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Button hover effect */
+  .contact-button:hover {
+    background-color: #ddd;
+  }
+  

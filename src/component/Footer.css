@@ -1,0 +1,101 @@
+/* Univeral Selector */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* Reset */
+}
+ /* background image */
+.app-footer {
+  background-image: url('C:\Users\91989\Desktop\React project\basic-html-react-project\public\footerwave.png');
+  background-size: cover;
+
+  color: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  bottom: 0;
+  width: 100%;
+
+  background-position: bottom;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-color: #36373c;
+  padding-top: 50px;
+  
+
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-top-part {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-col {
+  width: 20%;
+}
+
+.footer-col1 {
+  width: 30%;
+}
+
+.footer-top-part h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-bottom-part {
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: red;
+  padding-left: 15px;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+
+.address,address,a {
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+  transition: color 500ms ease-in-out, padding-left 500ms ease-in-out;
+  
+}
+/* This will create a slide effect on hover */
+a:hover {
+  color: red;
+  padding-left: 10px;
+  
+}
+/* Adds space after the paragraph */
+.footer-col p {
+  margin-bottom: 20px;
+ 
+}
