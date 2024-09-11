@@ -4,8 +4,6 @@ import './Technology.css';
 const Technology = () => {
 
 
-
-
     return (
         <>
 
@@ -23,28 +21,28 @@ const Technology = () => {
                     <div className="rotating-image">
                         <img
                             src="https://www.preciousinfosystem.com/images/assets/react.png"
-                            alt="JavaScript"
+                            alt="React Js"
                         />
                     </div>
-                    <h2 className="heading5">JavaScript</h2>
+                    <h2 className="heading5">React Js</h2>
                 </div>
                 <div className="rotating-container">
                     <div className="rotating-image">
                         <img
                             src="https://www.preciousinfosystem.com/images/assets/html.png"
-                            alt="JavaScript"
+                            alt="HTML"
                         />
                     </div>
-                    <h2 className="heading5">JavaScript</h2>
+                    <h2 className="heading5">HTML</h2>
                 </div>
                 <div className="rotating-container">
                     <div className="rotating-image">
                         <img
-                            src="https://www.preciousinfosystem.com/images/assets/js.png"
-                            alt="JavaScript"
+                            src="https://www.preciousinfosystem.com/images/assets/css.png"
+                            alt="CSS"
                         />
                     </div>
-                    <h2 className="heading5">JavaScript</h2>
+                    <h2 className="heading5">CSS</h2>
                 </div>
             </div>
 
